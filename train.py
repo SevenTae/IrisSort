@@ -7,6 +7,7 @@ from sklearn import datasets
 import torch.utils.data as Data
 from sklearn.model_selection import train_test_split
 
+#我更改了一下
 #数据预处理：获取数据集，划分
 def getdata():
     from sklearn.datasets import load_iris
